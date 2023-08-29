@@ -1,0 +1,49 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Nav bar */
+
+.navbar , a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+}
+
+a:hover {
+  color: #e2dede;
+}
+
+ul, li {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin: 0;
+  background-color: black;
+  font-size: 30px;
+  border-inline: 1px solid white;
+}
+
+/* Main Hero */
+
+.hero {
+  height: 500px;
+}
+
+.hero-image {
+  background-color: black;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 650px;
+  height: 650px;
+  margin: auto;
+}
+
+
